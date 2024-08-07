@@ -13,6 +13,7 @@ body{
 }
 
 .background{
+
     background: url(back.jpg) no-repeat;
     background-position: center;
     background-size: cover;
@@ -27,9 +28,8 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: transparent;
     padding: 25px 13%;
-    background-color: rgb(94, 5, 105);
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,8 +123,10 @@ body{
     width: 75%;
     height: 550px;
     margin-top: 20px;
-    background-color: #a67bf7;
-    color: #fff;
+    background: url(back.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
     border-radius: 20px;
 
 }
@@ -137,7 +139,7 @@ body{
     width: 58%;
     height: 100%;
     color: #fff;
-    background: #d3affd;
+    background: transparent;
     padding: 80px;
     display: flex;
     justify-content: space-between;
@@ -304,14 +306,3 @@ body{
     
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
